@@ -35,5 +35,14 @@ namespace FizzbuzzTests
             int number = FizzbuzzCalculator.GenerateNumbers()[listPosition];
             Assert.Equal(printedValue, FizzbuzzCalculator.ConvertsValueToString(number));
         }
+        
+        [Fact]
+        public void CheckIfSixIsFizz()
+        {
+            int listPosition = 5;
+            string printedValue = "Fizz";
+            int number = FizzbuzzCalculator.GenerateNumbers()[listPosition];
+            Assert.Equal(printedValue, FizzbuzzCalculator.ConvertsValueToString(number));
+        }
     }
 }
