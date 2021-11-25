@@ -17,7 +17,12 @@ namespace Fizzbuzz
         }
         public static string ConvertsValueToString(int number)
         {
-            return "";
+            if (number == 3)
+            {
+                return "Fizz";
+            }
+
+            return number.ToString();
         }
     }
 }
