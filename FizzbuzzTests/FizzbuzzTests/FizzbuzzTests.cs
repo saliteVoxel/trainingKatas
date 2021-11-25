@@ -11,10 +11,20 @@ namespace FizzbuzzTests
         [InlineData(1,2)]
         [InlineData(2,3)]
         [InlineData(3,4)]
+        [InlineData(99,100)]
         public void CheckNumbersInList(int listPosition, int printedNumber)
         {
-            int number = FizzbuzzCalculator.PrintNumbers()[listPosition];
+            int number = FizzbuzzCalculator.GenerateNumbers()[listPosition];
             Assert.Equal(printedNumber,number);
+        }
+        
+        [Fact]
+        public void CheckIfThreeIsFizz()
+        {
+            int listPosition = 2;
+            string printedValue = "Fizz";
+            int number = FizzbuzzCalculator.GenerateNumbers()[listPosition];
+            Assert.Equal(printedValue, FizzbuzzCalculator.ConvertsValueToString(number));
         }
     }
 }
