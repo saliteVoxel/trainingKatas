@@ -19,6 +19,15 @@ namespace FizzbuzzTests
         }
         
         [Fact]
+        public void CheckIfOneIsOne()
+        {
+            int listPosition = 0;
+            string printedValue = "1";
+            int number = FizzbuzzCalculator.GenerateNumbers()[listPosition];
+            Assert.Equal(printedValue, FizzbuzzCalculator.ConvertsValueToString(number));
+        }
+        
+        [Fact]
         public void CheckIfThreeIsFizz()
         {
             int listPosition = 2;
