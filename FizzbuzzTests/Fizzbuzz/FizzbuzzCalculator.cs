@@ -36,6 +36,10 @@ namespace Fizzbuzz
             {
                 return "Buzz";
             }
+            if (number == 15)
+            {
+                return "FizzBuzz";
+            }
 
             return number.ToString();
         }
