@@ -9,13 +9,20 @@ namespace FizzBuzzSecond
         public static List<int> GenerateNumbers()
         {
             var printedNumbers = new List<int>() {};
-                printedNumbers.Add(1);
+            for (int i = 1; i < 100; i++)
+            {
+                printedNumbers.Add(i);
+            }
                 return printedNumbers;
-            
+
         }
         
         public static string StringGenerator(int number)
         {
+            if ((number % 3 == 0)&&(number % 5 == 0))
+            {
+                return "FizzBuzz";   
+            }
             if (number % 3 == 0)
             {
                 return "Fizz";   

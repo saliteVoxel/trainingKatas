@@ -16,10 +16,10 @@ namespace FizzBuzzSecond.Tests
         }
         
         [Theory]
-        [InlineData(4, "Fizz")]
-        [InlineData(7, "Fizz")]
-        [InlineData(10, "Fizz")]
-        [InlineData(16, "Fizz")]
+        [InlineData(2, "Fizz")]
+        [InlineData(5, "Fizz")]
+        [InlineData(8, "Fizz")]
+     
         public void CheckIfThreeModulesAreFizz(int listPosition, string printedValue)
         {
             int number = FizzBuzzGenerator.GenerateNumbers()[listPosition];
@@ -28,16 +28,32 @@ namespace FizzBuzzSecond.Tests
         }
         
         [Theory]
-        [InlineData(6, "Buzz")]
-        [InlineData(11, "Buzz")]
-        [InlineData(16, "Buzz")]
-        [InlineData(21, "Buzz")]
+        [InlineData(9, "Buzz")]
+        [InlineData(19, "Buzz")]
+        
+     
         public void CheckIfFiveModulesAreBuzz(int listPosition, string printedValue)
         {
             int number = FizzBuzzGenerator.GenerateNumbers()[listPosition];
             
             Assert.Equal(printedValue, FizzBuzzGenerator.StringGenerator(number));
         }
+        
+        
+        [Theory]
+        [InlineData(14, "FizzBuzz")]
+        [InlineData(29, "FizzBuzz")]
+
+        public void CheckIfFiveAndThreeModulesAreFizzBuzz(int listPosition, string printedValue)
+        {
+            int number = FizzBuzzGenerator.GenerateNumbers()[listPosition];
+            
+            Assert.Equal(printedValue, FizzBuzzGenerator.StringGenerator(number));
+        }
+        
+    
+        
+      
         
         
     }
