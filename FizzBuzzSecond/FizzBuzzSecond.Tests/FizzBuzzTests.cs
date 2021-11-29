@@ -14,6 +14,17 @@ namespace FizzBuzzSecond.Tests
             
             Assert.Equal(printedNumber, number);
         }
+        
+        [Theory]
+        [InlineData(4, "Fizz")]
+        public void CheckIfThreeIsFizz(int listPosition, string printedValue)
+        {
+            int number = FizzBuzzGenerator.GenerateNumbers()[listPosition];
+            
+            Assert.Equal(printedValue, FizzBuzzGenerator.StringGenerator(number));
+        }
+        
+        
     }
 
 }

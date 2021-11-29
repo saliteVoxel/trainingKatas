@@ -13,5 +13,15 @@ namespace FizzBuzzSecond
                 return printedNumbers;
             
         }
+        
+        public static string StringGenerator(int number)
+        {
+            if (number == 3)
+            {
+                return "Fizz";   
+            }
+
+            return number.ToString();
+        }
     }
 }
