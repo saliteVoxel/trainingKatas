@@ -1,0 +1,12 @@
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\bin\Debug\net5.0\FizzBuzzSecond.deps.json
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\bin\Debug\net5.0\FizzBuzzSecond.dll
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\bin\Debug\net5.0\ref\FizzBuzzSecond.dll
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\bin\Debug\net5.0\FizzBuzzSecond.pdb
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.csproj.AssemblyReference.cache
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.AssemblyInfoInputs.cache
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.AssemblyInfo.cs
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.csproj.CoreCompileInputs.cache
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.dll
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\ref\FizzBuzzSecond.dll
+D:\Users\salite\source\repos\trainingKatas\FizzBuzzSecond\FizzBuzzSecond\obj\Debug\net5.0\FizzBuzzSecond.pdb
