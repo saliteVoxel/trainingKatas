@@ -17,7 +17,7 @@ namespace FizzBuzzSecond.Tests
         
         [Theory]
         [InlineData(4, "Fizz")]
-        public void CheckIfThreeIsFizz(int listPosition, string printedValue)
+        public void CheckIfThreeModulesAreFizz(int listPosition, string printedValue)
         {
             int number = FizzBuzzGenerator.GenerateNumbers()[listPosition];
             
