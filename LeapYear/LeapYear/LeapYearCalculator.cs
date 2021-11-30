@@ -4,9 +4,10 @@ namespace LeapYear
 {
     public class LeapYearCalculator
     {
-        public static int Calculate(int number)
+        public static bool Calculate(int number)
         {
-            return 4;
+            return number % 4 == 0;
+
         }
     }
 }

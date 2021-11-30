@@ -5,12 +5,12 @@ namespace LeapYear.Tests
 {
     public class LeapYearShould
     {
+        
         [Theory]
-        [InlineData(4, 4)]
-        public void BeDividedByFour(int expectedResult, int number)
+        [InlineData(4)]
+        public void BeDividedByFourTrue(int number)
         {
-            number = LeapYearCalculator.Calculate(number);
-            Assert.Equal(expectedResult, number);
+            Assert.True(LeapYearCalculator.Calculate(number));
             
         }
     }
