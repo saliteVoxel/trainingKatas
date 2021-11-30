@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{A18265E2-51A8-4B24-A38C-BCC1BF140BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear.Tests", "LeapYear.Tests\LeapYear.Tests.csproj", "{06E39674-8A45-4AF9-BEBD-2E37E8254732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A18265E2-51A8-4B24-A38C-BCC1BF140BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18265E2-51A8-4B24-A38C-BCC1BF140BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18265E2-51A8-4B24-A38C-BCC1BF140BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18265E2-51A8-4B24-A38C-BCC1BF140BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E39674-8A45-4AF9-BEBD-2E37E8254732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E39674-8A45-4AF9-BEBD-2E37E8254732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E39674-8A45-4AF9-BEBD-2E37E8254732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E39674-8A45-4AF9-BEBD-2E37E8254732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\bin\Debug\net5.0\LeapYear.deps.json
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\bin\Debug\net5.0\LeapYear.dll
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\bin\Debug\net5.0\ref\LeapYear.dll
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\bin\Debug\net5.0\LeapYear.pdb
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.csproj.AssemblyReference.cache
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.AssemblyInfoInputs.cache
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.AssemblyInfo.cs
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.csproj.CoreCompileInputs.cache
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.dll
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\ref\LeapYear.dll
+D:\Users\salite\source\repos\trainingKatas\LeapYear\LeapYear\obj\Debug\net5.0\LeapYear.pdb
