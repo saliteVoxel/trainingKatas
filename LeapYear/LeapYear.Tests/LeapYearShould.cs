@@ -32,6 +32,15 @@ namespace LeapYear.Tests
             Assert.False(LeapYearCalculator.Calculate(number));
             
         }
+        
+        [Theory]
+        [InlineData(4)]
+        [InlineData(8)]
+        public void BeDividedByFourButNotByOneHundred(int number)
+        {
+            Assert.True(LeapYearCalculator.Calculate(number));
+            
+        }
     }
 }
 
