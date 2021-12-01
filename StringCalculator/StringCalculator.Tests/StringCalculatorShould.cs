@@ -42,5 +42,24 @@ namespace StringCalculator.Tests
             Assert.Equal(expected, Calculator.Sum(numbers));
             
         }
+        
+        [Theory]
+        [InlineData("1\n1\n1", 3)]
+    
+        public void AcceptNextLineSeparator(string numbers, int expected)
+        {
+            Assert.Equal(expected, Calculator.Sum(numbers));
+            
+        }
+        
+        [Theory]
+        [InlineData("//;\n1;2", 3)]
+    
+        public void AcceptMultipleSeparators(string numbers, int expected)
+        {
+            Assert.Equal(expected, Calculator.Sum(numbers));
+            
+        }
+
     }
 }
