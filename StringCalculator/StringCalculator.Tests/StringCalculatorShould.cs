@@ -21,5 +21,15 @@ namespace StringCalculator.Tests
             Assert.Equal(expected, Calculator.Sum(numbers));
             
         }
+        
+        [Theory]
+        [InlineData("1,1", 2)]
+        [InlineData("1,2", 3)]
+        [InlineData("1,3", 4)]
+        public void ReturnOnePlusOtherNumber(string numbers, int expected)
+        {
+            Assert.Equal(expected, Calculator.Sum(numbers));
+            
+        }
     }
 }
