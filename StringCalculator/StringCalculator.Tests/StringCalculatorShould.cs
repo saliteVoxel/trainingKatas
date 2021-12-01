@@ -45,6 +45,8 @@ namespace StringCalculator.Tests
         
         [Theory]
         [InlineData("1\n1\n1", 3)]
+        [InlineData("1\n1\n1\n1", 4)]
+        
     
         public void AcceptNextLineSeparator(string numbers, int expected)
         {
@@ -54,8 +56,15 @@ namespace StringCalculator.Tests
         
         [Theory]
         [InlineData("//;\n1;2", 3)]
-    
         public void AcceptMultipleSeparators(string numbers, int expected)
+        {
+            Assert.Equal(expected, Calculator.Sum(numbers));
+            
+        }
+        
+        [Theory]
+        [InlineData("-1,2", 1)]
+        public void NotAcceptNegativeNumbers(string numbers, int expected)
         {
             Assert.Equal(expected, Calculator.Sum(numbers));
             

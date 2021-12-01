@@ -25,7 +25,10 @@ namespace StringCalculator
 
             string[] numbersToSum = numbers.Split(delimiterChars.ToArray());
             int[] numbersToSumInt = Array.ConvertAll(numbersToSum, number => int.Parse(number));
+            
             return numbersToSumInt.Sum();
+            
+            
 
         }
     }
