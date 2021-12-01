@@ -14,6 +14,8 @@ namespace StringCalculator.Tests
 
         [Theory]
         [InlineData("0,1", 1)]
+        [InlineData("0,2", 2)]
+        [InlineData("0,3", 3)]
         public void ReturnZeroPlusOtherNumber(string numbers, int expected)
         {
             Assert.Equal(expected, Calculator.Sum(numbers));

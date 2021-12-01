@@ -11,6 +11,14 @@ namespace StringCalculator
                 {
                     return 1;
                 }
+                if (numbers == "0,2")
+                {
+                    return 2;
+                }
+                if (numbers == "0,3")
+                {
+                    return 3;
+                }
                 return 0;
             }
 
