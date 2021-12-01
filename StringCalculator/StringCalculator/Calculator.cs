@@ -7,32 +7,20 @@ namespace StringCalculator
         public static int Sum(string numbers)
         {
             {
-                if (numbers == "0,1")
+                if (string.IsNullOrEmpty(numbers))
                 {
-                    return 1;
+                    return 0;
                 }
-                if (numbers == "0,2")
+                if (!numbers.Contains(","))
                 {
-                    return 2;
+                    return Int32.Parse(numbers);
                 }
-                if (numbers == "0,3")
-                {
-                    return 3;
-                }
-                if (numbers == "1,1")
-                {
-                    return 2;
-                }
-                if (numbers == "1,2")
-                {
-                    return 3;
-                }
-                if (numbers == "1,3")
-                {
-                    return 4;
-                }
-        
-                return 0;
+
+                int commaPosition = numbers.IndexOf(',');
+                int firstNumber = Int32.Parse(numbers.Substring(0, commaPosition));
+                int secondNumber = Int32.Parse(numbers.Substring(commaPosition + 1));
+                return firstNumber + secondNumber;
+                
             }
 
             

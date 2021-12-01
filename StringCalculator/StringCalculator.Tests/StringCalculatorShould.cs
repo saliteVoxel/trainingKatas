@@ -8,7 +8,7 @@ namespace StringCalculator.Tests
         [Fact]
         public void ReturnZeroForAnEmptyString()
         {
-            int actual = Calculator.Sum(" ");
+            int actual = Calculator.Sum("");
             Assert.Equal(0, actual);
         }
 
