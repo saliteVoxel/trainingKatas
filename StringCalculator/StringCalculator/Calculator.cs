@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace StringCalculator
 {
@@ -11,15 +12,10 @@ namespace StringCalculator
                 {
                     return 0;
                 }
-                if (!numbers.Contains(","))
-                {
-                    return Int32.Parse(numbers);
-                }
 
-                int commaPosition = numbers.IndexOf(',');
-                int firstNumber = Int32.Parse(numbers.Substring(0, commaPosition));
-                int secondNumber = Int32.Parse(numbers.Substring(commaPosition + 1));
-                return firstNumber + secondNumber;
+                string[] numbersToSum = numbers.Split(",");
+                int[] numbersToSumInt = Array.ConvertAll(numbersToSum, number => int.Parse(number));
+                return numbersToSumInt.Sum();
                 
             }
 

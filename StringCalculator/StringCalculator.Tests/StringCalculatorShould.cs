@@ -31,5 +31,16 @@ namespace StringCalculator.Tests
             Assert.Equal(expected, Calculator.Sum(numbers));
             
         }
+        [Theory]
+        [InlineData("1,1,1", 3)]
+        [InlineData("1,1,2", 4)]
+        [InlineData("1,1,3", 5)]
+        [InlineData("1,1,1,3", 6)]
+        [InlineData("1,1,1,1, 3", 7)]
+        public void ReturnTheSumOfMultipleNumbers(string numbers, int expected)
+        {
+            Assert.Equal(expected, Calculator.Sum(numbers));
+            
+        }
     }
 }
