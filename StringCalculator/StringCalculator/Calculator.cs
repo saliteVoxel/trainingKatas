@@ -24,7 +24,15 @@ namespace StringCalculator
             
 
             string[] numbersToSum = numbers.Split(delimiterChars.ToArray());
-            int[] numbersToSumInt = Array.ConvertAll(numbersToSum, number => int.Parse(number));
+            int[] numbersToSumInt = Array.ConvertAll(numbersToSum, number =>
+            {
+                int numberToInt = int.Parse(number);
+                if (numberToInt < 0)
+                {
+                    throw new ArgumentException("Negative numbers are not allowed");
+                }
+                return numberToInt;
+            });
             
             return numbersToSumInt.Sum();
             
