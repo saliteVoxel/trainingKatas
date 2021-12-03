@@ -27,17 +27,26 @@ namespace StringCalculator
             int[] numbersToSumInt = Array.ConvertAll(numbersToSum, number =>
             {
                 int numberToInt = int.Parse(number);
-                if (numberToInt < 0)
-                {
-                    throw new ArgumentException("Negative numbers are not allowed");
-                }
                 return numberToInt;
             });
-            
-            return numbersToSumInt.Sum();
-            
-            
 
+            List<int> negativeNumbers = new List<int>();
+            foreach (var numberToInt in numbersToSumInt)
+            {
+                if (numberToInt < 0)
+                {
+                    negativeNumbers.Add(numberToInt);
+                }
+            }
+
+            if (negativeNumbers.Count > 0)
+            {
+                throw new ArgumentException($"Negative numbers are not allowed: {string.Join(",", negativeNumbers)}");
+            }
+
+            return numbersToSumInt.Sum();
         }
+        
+        
     }
 }

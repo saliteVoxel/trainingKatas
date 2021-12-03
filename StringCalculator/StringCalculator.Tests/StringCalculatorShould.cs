@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace StringCalculator.Tests
@@ -65,11 +66,20 @@ namespace StringCalculator.Tests
         
         [Theory]
         [InlineData("-1,2")]
+        [InlineData("-1,-2")]
         public void NotAcceptNegativeNumbers(string numbers)
         {
-            Assert.Throws<ArgumentException>(() => Calculator.Sum(numbers));
+            var exception = Assert.Throws<ArgumentException>(() => Calculator.Sum(numbers));
+        }
+        
+        [Fact]
+        public void NotAcceptNegativeNumbersAndShowNumbersInMessage ()
+        {
+            string negativeNumbers = "-1,-2";
+            ArgumentException exception = Assert.Throws<ArgumentException>(() => Calculator.Sum(negativeNumbers));
+            int[] numbersInMessage = { -1, -2 };
+            Assert.Equal($"Negative numbers are not allowed: {string.Join(",", numbersInMessage)}", exception.Message);
             
         }
-
     }
 }
