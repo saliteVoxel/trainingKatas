@@ -2,9 +2,13 @@ namespace Factorials1
 {
     public class FactorialsCalculator
     {
-        public static int Calculate(object number)
+        public static int Calculate(int number)
         {
-            return 0;
+            if (number == 0)
+            {
+                return 1;
+            }
+            return 1;
         }
     }
 }
