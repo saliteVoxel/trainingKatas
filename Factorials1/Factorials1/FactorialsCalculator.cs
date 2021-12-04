@@ -4,19 +4,19 @@ namespace Factorials1
     {
         public static int Calculate(int number)
         {
-            if (number == 0)
+            if (number < 2)
             {
                 return 1;
             }
-            if (number == 2)
+
+            int index = number - 1;
+            int result = number;
+            while (number >= 2)
             {
-                return 2;
+                result = number * index;
+                index--;
             }
-            if (number == 3)
-            {
-                return 6;
-            }
-            return 1;
+            return result;
         }
     }
 }
