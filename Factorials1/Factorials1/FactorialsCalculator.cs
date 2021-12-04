@@ -1,9 +1,15 @@
+using System;
+
 namespace Factorials1
 {
     public class FactorialsCalculator
     {
         public static int Calculate(int number)
         {
+            if (number < 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
             if (number < 2)
             {
                 return 1;
@@ -11,9 +17,9 @@ namespace Factorials1
 
             int index = number - 1;
             int result = number;
-            while (number >= 2)
+            while (index >= 2)
             {
-                result = number * index;
+                result *= index;
                 index--;
             }
             return result;

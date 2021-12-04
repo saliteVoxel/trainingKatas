@@ -17,5 +17,11 @@ namespace Factorials1.Tests
             
             Assert.Equal(expected, result);
         }
+        
+        [Fact]
+        public void ThrowExceptionWhenGettingANegativeNumber ()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => FactorialsCalculator.Calculate(-1));
+        }
     }
 }
