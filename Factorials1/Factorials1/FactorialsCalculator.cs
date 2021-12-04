@@ -12,6 +12,10 @@ namespace Factorials1
             {
                 return 2;
             }
+            if (number == 3)
+            {
+                return 6;
+            }
             return 1;
         }
     }

@@ -10,6 +10,7 @@ namespace Factorials1.Tests
         [InlineData(1,0)]
         [InlineData(1,1)]
         [InlineData(2,2)]
+        [InlineData(6,3)]
         public void CheckIfFactorialsAreCorrect(int expected, int number)
         {
             int result = FactorialsCalculator.Calculate(number);
