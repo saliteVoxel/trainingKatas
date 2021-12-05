@@ -2,9 +2,14 @@ namespace Fibonacci.Tests
 {
     public class FibonacciCalculator
     {
-        public static int Calculate(int i)
+        public static int Calculate(int number)
         {
-            return 0;
+            if (number == 0)
+                return 0;
+            if (number == 1)
+                return 1;
+            return number;
+            
         }
     }
 }

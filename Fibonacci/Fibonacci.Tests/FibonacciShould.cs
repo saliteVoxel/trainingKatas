@@ -11,5 +11,11 @@ namespace Fibonacci.Tests
             int result = FibonacciCalculator.Calculate(0);
             Assert.Equal(0, result);
         }
+        [Fact]
+        public void Return1For1()
+        {
+            int result = FibonacciCalculator.Calculate(1);
+            Assert.Equal(1, result);
+        }
     }
 }
