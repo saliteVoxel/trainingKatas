@@ -17,12 +17,15 @@ namespace Fibonacci.Tests
             int result = FibonacciCalculator.Calculate(1);
             Assert.Equal(1, result);
         }
-        
-        [Fact]
-        public void Return2For2()
+
+        [Theory]
+        [InlineData(3, 2)]
+        [InlineData(4, 3)]
+        [InlineData(11, 89)]
+        public void CheckFibonacciNumbers(int number, int result)
         {
-            int result = FibonacciCalculator.Calculate(2);
-            Assert.Equal(2, result);
+            int expectedResult = FibonacciCalculator.Calculate(number);
+            Assert.Equal(result, expectedResult);
         }
     }
 }
