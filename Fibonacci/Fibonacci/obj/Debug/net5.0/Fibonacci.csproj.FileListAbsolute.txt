@@ -1,0 +1,12 @@
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\bin\Debug\net5.0\Fibonacci.deps.json
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\bin\Debug\net5.0\Fibonacci.dll
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\bin\Debug\net5.0\ref\Fibonacci.dll
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\bin\Debug\net5.0\Fibonacci.pdb
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.csproj.AssemblyReference.cache
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.AssemblyInfoInputs.cache
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.AssemblyInfo.cs
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.csproj.CoreCompileInputs.cache
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.dll
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\ref\Fibonacci.dll
+D:\Users\salite\source\repos\trainingKatas\Fibonacci\Fibonacci\obj\Debug\net5.0\Fibonacci.pdb
