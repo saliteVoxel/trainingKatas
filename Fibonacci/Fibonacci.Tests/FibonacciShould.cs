@@ -17,5 +17,12 @@ namespace Fibonacci.Tests
             int result = FibonacciCalculator.Calculate(1);
             Assert.Equal(1, result);
         }
+        
+        [Fact]
+        public void Return2For2()
+        {
+            int result = FibonacciCalculator.Calculate(2);
+            Assert.Equal(2, result);
+        }
     }
 }
