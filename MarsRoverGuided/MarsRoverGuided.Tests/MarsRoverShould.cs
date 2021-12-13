@@ -14,5 +14,15 @@ namespace MarsRoverGuided.Tests
             
             Assert.Equal(coordinates, rover.Position());
         }
+        
+        
+        [Fact]
+        public void StayInTheInitialPPosition1And0()
+        {
+            Coordinates coordinates = new ("1,0");
+            Rover rover = new Rover();
+            
+            Assert.Equal(coordinates, rover.Position());
+        }
     }
 }
