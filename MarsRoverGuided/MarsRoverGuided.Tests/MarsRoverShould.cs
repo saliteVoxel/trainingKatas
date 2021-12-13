@@ -2,7 +2,7 @@ using System;
 using MarsRoverGuided.Tests;
 using Xunit;
 
-namespace MarsRoverGuided
+namespace MarsRoverGuided.Tests
 {
     public class MarsRoverShould
     {

@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 
-namespace MarsRoverGuided.Tests
+namespace MarsRoverGuided
 {
     public class Rover
     {
         public static string Position()
         {
-            throw new System.NotImplementedException();
+            return "0,0";
         }
     }
 }
