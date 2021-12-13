@@ -9,7 +9,9 @@ namespace MarsRoverGuided.Tests
         [Fact]
         public void StayInTheInitialPosition0And0()
         {
-            Assert.Equal("0,0", Rover.Position());
+            Coordinates coordinates = new ("0,0");
+            
+            Assert.Equal(coordinates, Rover.Position());
         }
     }
 }

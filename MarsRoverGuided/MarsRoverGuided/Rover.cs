@@ -2,11 +2,11 @@ using System.Collections.Generic;
 
 namespace MarsRoverGuided
 {
-    public class Rover
+    public partial class Rover
     {
-        public static string Position()
+        public static Coordinates Position()
         {
-            return "0,0";
+            return new Coordinates("0,0");
         }
     }
 }
