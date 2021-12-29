@@ -1,0 +1,12 @@
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\bin\Debug\net5.0\MarsRoverSMS.deps.json
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\bin\Debug\net5.0\MarsRoverSMS.dll
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\bin\Debug\net5.0\ref\MarsRoverSMS.dll
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\bin\Debug\net5.0\MarsRoverSMS.pdb
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.csproj.AssemblyReference.cache
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.AssemblyInfoInputs.cache
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.AssemblyInfo.cs
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.csproj.CoreCompileInputs.cache
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.dll
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\ref\MarsRoverSMS.dll
+D:\Users\salite\source\repos\trainingKatas\MarsRoverSMS.Tests\MarsRoverSMS\obj\Debug\net5.0\MarsRoverSMS.pdb
